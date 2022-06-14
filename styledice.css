@@ -1,56 +1,62 @@
-<style>
-	.container {
-		width: 70%;
-		margin: auto;
-		text-align: center;
-	}
+#dices {
+	display: flex;
+	justify-content: space-around;
+  }
 
-	.dice {
-		text-align: center;
-		display: inline-block;
-		margin: 10px;
-	}
+  .container {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+  }
 
-	body {
-		background-color: #042f4b;
-		margin: 0;
-	}
+  .dice {
+	color: #4ecca3;
+	text-align: center;
+	display: inline-block;
+	margin: 10px;
+  }
+  body {
+	background-color: #000036;
+	margin: 0;
+  }
+  h1 {
+	margin: 30px;
+	font-family: "Lobster", cursive;
+	text-shadow: 5px 0 #232931;
+	font-size: 4.5rem;
+	color: #4ecca3;
+	text-align: center;
+  }
+  p {
+	font-size: 2rem;
+	color: #4ecca3;
+	font-family: "Indie FLower", cursive;
+  }
+  img {
+	width: 100%;
+  }
+  .bottom {
+	padding-top: 30px;
+  }
 
-	h1 {
-		margin: 30px;
-		font-family: "Lobster", cursive;
-		text-shadow: 5px 0 #232931;
-		font-size: 4.5rem;
-		color: #4ecca3;
-		text-align: center;
-	}
+ /* button:disabled,
+button[disabled]{
 
-	p {
-		font-size: 2rem;
-		color: #4ecca3;
-		font-family: "Indie Flower", cursive;
-	}
-
-	img {
-		width: 100%;
-	}
-
-	.bottom {
-		padding-top: 30px;
-	}
-
-	.butn {
-		background: #4ecca3;
-		font-family: "Indie Flower", cursive;
-		border-radius: 7px;
-		color: #ffff;
-		font-size: 30px;
-		padding: 16px 25px 16px 25px;
-		text-decoration: none;
-	}
-
-	.butn:hover {
-		background: #232931;
-		text-decoration: none;
-	}
-</style>
+background-color: #332f2f;
+color: #666666;
+}
+*/
+  .butn {
+	background: #4ecca3;
+	font-family: "Indie FLower", cursive;
+	border-radius: 7px;
+	color: #ffff;
+	font-size: 20px;
+	width: 150px;
+	text-decoration: none;
+	height: 60px;
+  }
+  .butn:hover {
+	background: #232931;
+	text-decoration: none;
+  }
